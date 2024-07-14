@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            justify-content: center;
+            margin-top: 170px;
+        }
+        .container div{
+           background-color: aqua; 
+           border: 3px solid black;
+           border-radius: 10px;
+        }
+        .container{
+            display: grid;
+            height: 20vh;
+            grid-template-columns: 200px 300px   ;
+           column-gap: 10px;
+            
+        }
+        .item1{
+            background-image: url(https://t4.ftcdn.net/jpg/06/22/22/17/360_F_622221708_Gg16ZdaNSixeaIORq9MuuT4w9VWTkYw4.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+        .item11{
+            background-image: url(https://beebom.com/wp-content/uploads/2023/06/Anime.jpg?w=640);
+       background-repeat: no-repeat;
+       background-size:cover;
+        }
+        .container1 div{
+            background-color: aqua; 
+            border: 3px solid black;
+            border-radius: 10px;
+         }
+         .container1{
+             display: grid;
+             height: 15vh;
+             grid-template-columns: 150px 350px   ;
+            column-gap: 10px;
+             
+         }
+         .item2{
+            background-image: url(https://www.siasat.com/wp-content/uploads/2023/07/prabhas.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+        .item22{
+            background-image: url(https://images.moneycontrol.com/static-mcnews/2023/12/SALAR-Prabhas.jpg);
+       background-repeat: no-repeat;
+       background-size:cover;
+        }
+
+         .container11 div{
+            background-color: aqua; 
+            border: 3px solid black;
+            border-radius: 10px;
+         }
+         .container11{
+             display: grid;
+             height: 10vh;
+             grid-template-columns: 100px 400px   ;
+            column-gap: 10px;
+             
+         }
+         .item3{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpLNVubi9xH2bNA9y2K2Svi5JoxeZZ1LgliA&s);
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+        .item33{
+            background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+       background-repeat: no-repeat;
+       background-size:cover;
+        }
+           h1{
+            text-align: center;
+           } 
+    </style>
+</head>
+<body>
+    <h1>using GRID (Parent Properties)</h1>
+    <div class="parent"><div class="container">
+        <div class="item1" > </div>
+        <div class="item11"></div>
+         
+   </div>
+<br>
+   <div class="container1">
+       <div class="item2" > </div>
+       <div class="item22"></div>
+        
+  </div>
+  <br>
+  <div class="container11">
+   <div class="item3" > </div>
+   <div class="item33"></div>
+    
+</div></div>
+</body>
+</html>
